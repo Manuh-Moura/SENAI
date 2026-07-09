@@ -1,4 +1,4 @@
 let primeiroNome = "Manoella";
- let sobrenome = " Kruk";
+let sobrenome = " Kruk";
   
- console.log(primeiroNome + sobrenome)
+console.log(primeiroNome + sobrenome)
