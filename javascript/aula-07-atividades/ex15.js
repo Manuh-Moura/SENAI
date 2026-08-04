@@ -1,21 +1,28 @@
-function  somar(a, b){
-    return a + b
+function  somar(a , b){
+    return a + b 
 }
-let resultado =  somar(4, 9)
-console.log(resultado)
-function  sub(a, b){
-    return a - b
+let valor =  somar(4,7)
+console.log(valor)
+
+function  sub(a , b){
+    return a - b 
 }
-let resultado2 =  sub(4, 9)
-console.log(resultado2)
-function  multi(a, b){
-    return a * b
+let valor2 =  sub(4,7)
+console.log(valor2)
+
+function  mult(a , b){
+    return a * b 
 }
-let resultado3 =  multi(4, 9)
-console.log(resultado3)
+let valor3 =  mult(4,7)
+console.log(valor3)
+
 function  dividir(a, b){
-    return a / b
+    if( b === 0){
+        return 'error'
+    }else{
+        return a / b
+    }
 }
-let resultado4 =  dividir(4, 9)
-console.log(resultado4)
+let valor4 =  dividir(4, 0)
+console.log(valor4)
 
