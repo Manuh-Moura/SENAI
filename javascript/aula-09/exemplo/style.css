@@ -1,0 +1,17 @@
+.btn {
+    padding: 20px;
+    text-align: center;
+    background: #a7a7ce;
+    color: #5d5d81;
+    border: 2px solid #5d5d81;
+    border-radius: 15px;
+
+}
+.is-active {
+    background-color: #cea7bb;
+    color: #a78395;
+    border: 2px solid #a78395;
+    width: 350px;
+    margin-left: 500px;
+    display: none;
+}
